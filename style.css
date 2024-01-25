@@ -1,0 +1,226 @@
+@font-face {
+font-family: 'Myriad Pro Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+body {
+background-image: url('background.png');
+background-position: cover;
+}
+
+.container {
+width: 100%;
+}
+
+
+.half-container{
+max-height: 811px;
+}
+
+
+/* ------------------------------------------------------ */
+/* Header CSS */
+/* ------------------------------------------------------ */
+
+.row{
+max-height: 105px;
+}
+
+.left-nav{
+background-color: #91bf16;
+height: 70px;
+width: 417px;
+position: relative;
+top: 50px;
+left: 250px;
+border-top: 1px solid #c3fb30;
+border-bottom: 1px solid #587a00;
+}
+
+.left-nav ul li {
+display: inline;
+}
+
+.left-nav ul li a {
+cursor: pointer;
+font-family: Arial;
+text-decoration: none;
+padding: 0px 25px;
+top: 30px;
+position: relative;
+color: #ffffff;
+border-right: 1px solid #546c15;
+}
+
+.logo{
+display: flex;
+justify-content: center;
+position: relative;
+bottom: 86px;
+z-index: 999;
+}
+
+.header-insect{
+position: relative;
+left: 795px;
+bottom: 314px;
+z-index: 999;
+}
+
+.right-nav{
+background-color: #91bf16;
+height: 70px;
+width: 417px;
+border-top: 1px solid #c3fb30;
+position: relative;
+left: 840px;
+bottom: 353px;
+border-bottom: 1px solid #587a00;
+}
+
+.right-nav ul li {
+display: inline;
+margin-top: 47px;
+}
+
+.right-nav ul li a {
+font-family: Arial;
+text-decoration: none;
+padding: 0px 25px;
+top: 30px;
+right: 30px;
+position: relative;
+color: #ffffff;
+border-right: 1px solid #546c15;
+}
+
+
+/* ------------------------------------------------------ */
+/* Banner CSS */
+/* ------------------------------------------------------ */
+
+.banner{
+display: flex;
+justify-content: center;
+}
+
+/* ------------------------------------------------------ */
+/* Three Images CSS */
+/* ------------------------------------------------------ */
+
+.three-images{
+display: flex;
+justify-content: center;
+margin: 25px 0px;
+}
+
+.center-insect{
+position: relative;
+left: 250px;
+bottom: 85px;
+}
+
+/* ------------------------------------------------------ */
+/* Testimonial CSS */
+/* ------------------------------------------------------ */
+
+.full-container{
+background-color: #8dc63f;
+max-height: 397px;
+}
+
+.testimonial{
+padding-top: 20px;
+margin: 15px 255px 0px 255px;
+max-height: 337px;
+}
+
+.testimonial h2{
+font-size: 35px;
+max-height: 40px;
+font-family: 'Myriad Pro Regular';
+}
+
+.testimonial p{
+font-family: Arial;
+}
+
+.testimonial b{
+float: right;
+font-family: Arial;
+}
+
+/* ------------------------------------------------------ */
+/* Social icon CSS */
+/* ------------------------------------------------------ */
+
+.social-icon{
+display: flex;
+justify-content: center;
+background-color: #373737;
+margin-top: 61px;
+margin-right: 360px;
+margin-left: 360px;
+}
+
+.social-icon img{
+margin: 25px 13px 0px 13px;
+}
+
+/* ------------------------------------------------------ */
+/* Footer CSS */
+/* ------------------------------------------------------ */
+
+footer{
+background-color: #373737;
+}
+
+.footer h5{
+font-size: 23.5px;
+padding: 30px 0px;
+color: #777777;
+border-bottom: 1px solid #2b2b2b;
+font-family: 'Myriad Pro Regular';
+max-width: 1138px;
+}
+
+.social-icon-2{
+border-top: 1px solid #464646;
+position: relative;
+bottom: 38px;
+padding: 30px;
+border-bottom: 1px solid #2b2b2b;
+max-width: 1080px;
+}
+
+.social-icon-2 ul li {
+display: inline;
+}
+
+.social-icon-2 ul li a {
+text-decoration: none;
+color: #b3b3b3;
+margin: 0px 25px;
+font-family: Arial;
+}
+
+.footer p {
+max-width: 1138px;
+padding-top: 20px;
+color: #b3b3b3;
+border-top: 1px solid #464646;
+position: relative;
+bottom: 54px;
+font-family: 'Arial';
+}
+
+
+
+
+
+
+
+
+
